@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Viaoda+Libre&display=swap');
+body {
+  background-image: url('https://theworldtravelguy.com/wp-content/uploads/2020/03/DSCF1693-2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Viaoda Libre', serif;
+}
+.colorbox {
+  background-color: #FFFFFF;
+  padding: 4em;
+  margin: 3em;
+  width: 500px;
+  height: 100%;
+}
+.text {
+  line-height: 2em;
+}
+p:first-of-type::first-letter {
+  font-family: 'Parisienne', cursive;
+  font-size: 3em;
+  font-weight: 400;
+}
+a {
+  background-color: #cc5500;
+  color: #FFFFFF
+}
+a:hover {
+  font-style: italic;
+}
+a:visited {
+  color: #999999;
+}
+a:active {
+  background-color: rgb(11, 44, 126)
+}
+h2:first-of-type::first-letter {
+  font-family: 'Viaoda Libre', serif;
+  font-size: 1em
+}
+h2::first-letter {
+  font-family: 'Parisienne', cursive;
+  font-size: 2em;
+}
+h1 {
+  font-style: oblique;
+}
