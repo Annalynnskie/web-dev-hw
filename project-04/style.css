@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville:ital@1&family=Viaoda+Libre&display=swap');
 body {
+  background-color: black;
   margin: 0;
   text-align: center;
   font-size:1.5em;
@@ -10,18 +12,29 @@ body {
   top: 0;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #3b0054;
+  color: #fff;
 }
 .navigation a {
   text-decoration: none;
+  font-family: 'Viaoda Libre', cursive;
+  color: #fff;
 }
 .main {
   margin-left: 250px;
 }
+.main img {
+  display: inline;
+}
 .site-info {
-margin: 2em auto;
-text-align: center;
-font-size: 200%;
+  margin: 2em auto;
+  text-align: center;
+  font-size: 200%;
+   color: #fff;
+}
+.site-info img {
+  width: 150px;
+  height: auto;
 }
 .logo {
   background-color: #fff;
@@ -31,12 +44,16 @@ font-size: 200%;
   border-radius: 100%;
   margin:0 auto 1em auto;
   line-height: 150px;
+  overflow: hidden;
+}
+.logo img {
+
 }
 .logo:hover {
-  border: 5px solid gray;
+  border: 5px solid #cc7722;
 }
 .site-links {
-
+   color: black;
 }
 .site-links a {
   display: block;
@@ -56,11 +73,11 @@ font-size: 200%;
   z-index: 5;
 }
 .site-links .dropdown-content a {
-  color: ;
+  color: #fff;
   font-family: ;
 }
 .site-links .dropdown-content a:hover {
-  color: ;
+  color: #fff;
 }
 .site-links .dropdown:hover .dropdown-content {
   display: block;
@@ -70,6 +87,7 @@ font-size: 200%;
   padding: ;
   display: block;
   text-align: center;
+   color: #fff;
 }
 .dropdown-items:hover {
   background-color: ;
@@ -86,9 +104,25 @@ font-size: 200%;
   float: left 1em;
 }
 .colorbox {
-  background-color: gray;
+  background-color: #b5d3e7;
 }
 p {
+  font-family: 'Libre Baskerville', serif;
   padding: 2em;
-line-height: 2em;
+  line-height: 2em;
+}
+p::first-letter {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4em;
+}
+h1 {
+  font-family: 'Viaoda Libre', cursive;
+  font-size: ;
+}
+h2 {
+  font-family: 'Viaoda Libre', cursive;
+}
+form {
+  font-family: 'Viaoda Libre', cursive;
+  color: #fff;
 }
