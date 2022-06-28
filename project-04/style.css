@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size:1.5em;
+}
+.navigation {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.navigation a {
+  text-decoration: none;
+}
+.main {
+  margin-left: 250px;
+}
+.site-info {
+margin: 2em auto;
+text-align: center;
+font-size: 200%;
+}
+.logo {
+  background-color: #fff;
+  width: 150px;
+  height: 150px;
+  border: 5px solid black;
+  border-radius: 100%;
+  margin:0 auto 1em auto;
+  line-height: 150px;
+}
+.logo:hover {
+  border: 5px solid gray;
+}
+.site-links {
+
+}
+.site-links a {
+  display: block;
+  margin: 0 auto 1em;
+}
+.site-links a:hover {
+  margin-left: ;
+}
+.site-links .dropdown {
+  display:inline-block;
+  width: ;
+}
+.site-links .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: ;
+  z-index: 5;
+}
+.site-links .dropdown-content a {
+  color: ;
+  font-family: ;
+}
+.site-links .dropdown-content a:hover {
+  color: ;
+}
+.site-links .dropdown:hover .dropdown-content {
+  display: block;
+}
+.site-links .dropdown-items {
+  min-width: ;
+  padding: ;
+  display: block;
+  text-align: center;
+}
+.dropdown-items:hover {
+  background-color: ;
+}
+.social-links {
+  background-color: inherit;
+  width: inherit;
+  position: inherit;
+  bottom: 0;
+}
+.social-links img {
+  width: 20%;
+  height: auto;
+  float: left 1em;
+}
+.colorbox {
+  background-color: gray;
+}
+p {
+  padding: 2em;
+line-height: 2em;
+}
