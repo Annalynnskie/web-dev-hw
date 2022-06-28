@@ -49,15 +49,27 @@
 
       <div class="colorbox" id="gray">
       <h1>Contact</h1>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis auctor elit sed. Volutpat commodo sed egestas egestas fringilla phasellus. Egestas sed tempus urna et pharetra pharetra massa massa. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Suspendisse faucibus interdum posuere lorem ipsum. Commodo ullamcorper a lacus vestibulum sed arcu non. Placerat orci nulla pellentesque dignissim enim sit amet venenatis. Dictum at tempor commodo ullamcorper a. Non nisi est sit amet. Integer quis auctor elit sed vulputate mi sit. Pretium fusce id velit ut tortor pretium viverra. Nunc aliquet bibendum enim facilisis gravida neque. Ornare lectus sit amet est placerat. Proin sed libero enim sed faucibus turpis in eu mi. Morbi enim nunc faucibus a. Diam vel quam elementum pulvinar.</p>
-        </div>
-      <div id="images">
-        <img src="./images/placeholder.jpg"/>
-        <img src="./images/placeholder.jpg"/>
-        <img src="./images/placeholder.jpg"/>
-        <img src="./images/placeholder.jpg"/>
-        </div>
+    </div>
+    <div id="forms" class="container">
+      <form action="https://example.com/registration.php" method="post">
+        What is your first name?:
+        <input type="text" name="firstname" maxlength="8" size="10">
+        <br><br>
+        What is your Gender?
+        <input type="radio" name="level" value="f" /> Female
+        <input type="radio" name="level" value="m" /> Male
+        <input type="radio" name="level" value="non" /> Don't want to say
+        <br />
+        <br><br>
+        How can we help you?:
+        <br>
+        <textarea cols="35" rows="10">
+          Type Here...
+        </textarea>
+        <br>
+        <input type="image" src="images/SubmitButton.png" alt="Submit Button Image" width="100" height="20">
+      </form>
+      </div>
       </div>
 
     </body>
